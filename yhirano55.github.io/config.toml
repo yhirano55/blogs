@@ -1,3 +1,63 @@
-languageCode = "en-us"
-title = "My New Hugo Site"
-baseURL = "http://example.org/"
+languageCode           = "ja"
+countryCode            = "ja"
+defaultcontentlanguage = "ja"
+baseurl                = "https://yhirano55.github.io"
+title                  = "ENTRYPOINT"
+theme                  = "hugo-cactus-theme"
+googleAnalytics        = ""
+# disqusShortname        = "spf13"
+canonifyURLs           = true
+
+[taxonomies]
+	category = "categories"
+	tag      = "tags"
+
+[params]
+	name        = "ENTRYPOINT"
+	description = "Between business and creative"
+	bio         = "Between business and creative"
+	twitter     = "yoshi_hirano"
+	enableRSS   = true
+
+	# Add custom assets with their paths relative to the static folder
+	customCSS = []
+	customJS  = []
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home      = ""
+	about     = ""
+	subscribe = ""
+
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	readMore   = "Read more"
+	copyright  = ""
+
+	# Sharing options and author information in posts
+	aboutAuthor = "Freelance software engineer in Kamakura."
+	tweet       = ""
+	share       = ""
+
+	# 404 page
+	title404    = ""
+	subtitle404 = ""
+
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "mono-social"
+
+	# The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+	socialIconStyle = "circle"
+
+[permalinks]
+	post = "/:year/:month/:day/:filename/"
+
+# Add additional social link entries underneath
+[social]
+    twitter  = "https://www.twitter.com/yoshi_hirano"
+    facebook = "https://www.facebook.com/yoshiyuki.hirano"
+    github   = "https://www.github.com/yhirano55"
+    # dribble  = "https://www.dribbble.com/"
