@@ -1,0 +1,21 @@
+checkout:
+  post:
+    - git submodule sync
+    - git submodule update --init --recursive
+
+machine:
+  timezone: Asia/Tokyo
+
+dependencies:
+  pre:
+    - go get -v github.com/spf13/hugo
+    - git config --global user.name "Yoshiyuki Hirano"
+    - git config --global user.email "yhirano@me.com"
+
+deployment:
+  master:
+    branch: master
+    commands:
+      - git clone git@github.com:yhirano55/yhirano55.github.io.git yhirano55.github.io/public
+      - cd yhirano55.github.io && hugo
+      - cd yhirano55.github.io/public && git add . && git commit -m "[ci skip] publish" && git push origin master
