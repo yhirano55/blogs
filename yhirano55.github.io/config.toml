@@ -1,7 +1,7 @@
 languageCode           = "ja"
 countryCode            = "ja"
 defaultcontentlanguage = "ja"
-baseurl                = "https://yhirano55.github.io"
+baseurl                = "https://yhirano55.github.io/"
 title                  = "ENTRYPOINT"
 theme                  = "hugo-cactus-theme"
 googleAnalytics        = ""
