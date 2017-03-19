@@ -12,6 +12,10 @@ dependencies:
     - git config --global user.name "Yoshiyuki Hirano"
     - git config --global user.email "yhirano@me.com"
 
+test:
+  override:
+    - "true"
+
 deployment:
   master:
     branch: master
