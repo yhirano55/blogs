@@ -34,11 +34,11 @@ description = "大江戸Ruby会議06の発表資料まとめ"
 
 ### esaとRubyistと私
 
-<i>公開待ち</i>
+<script async class="speakerdeck-embed" data-id="ad4f7c0318224e4080d993902053054f" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 ### Rationalを（もうちょっと）最適化してみた
 
-<i>公開待ち</i>
+[資料](http://niconare.nicovideo.jp/watch/kn2388)
 
 # Ninja Talks (15:15 - 16:15)
 
@@ -48,7 +48,7 @@ description = "大江戸Ruby会議06の発表資料まとめ"
 
 ### Ruby 2.4 Internals
 
-<i>公開待ち</i>
+[資料](http://www.atdot.net/~ko1/activities/2017_oedo06.pdf)
 
 ### 如何にして若き天才コミッタは生まれるのか
 
@@ -56,4 +56,15 @@ description = "大江戸Ruby会議06の発表資料まとめ"
 
 # Keynote (16:20 - 17:00)
 
-<i>公開待ち</i>
+<script async class="speakerdeck-embed" data-id="3780b285958a4d98a1cc5ed1b02cf024" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+---
+
+# 所感
+
+- 大阪から同じチームで働いた将来有望な[エンジニア](https://github.com/wakaba260)が来た。
+- 東京のいつも勉強させてもらっている[エンジニア](https://github.com/vividmuimui)もいた。
+- 御茶ノ水と言えば、[エチオピア](http://www.ethiopia-curry.com/)だったが、ソラシティカンファレンスセンターの1Fにあるのは盲点だった。
+- 立ち食い寿司の[まぐろ人](http://www.magurobito.com/)は安くて美味くて最高（御徒町店は初）。コハダの美味しさを知る。
+- 肝心の大江戸Ruby会議は、『esaとRubyistと私』がBLT。私も元々views/assets周りを触っていて、その延長として他も少し分かるくらいだったので。
+
