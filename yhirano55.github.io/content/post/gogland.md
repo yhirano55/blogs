@@ -16,4 +16,19 @@ tags = ["Golang", "Editor", "Jetbrains"]
 | Fonts | Ricty Diminished Discord |
 | Antialiasing | Greyscale |
 
-正直まだ試している最中なので、後日、評価を更新する。
+試しにプロジェクトを作成して、次のコードを書いてみる。
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var input string
+	fmt.Println("Enter Your Name: ")
+	fmt.Scanln(&input)
+	fmt.Printf("Hello, %s", input)
+}
+```
+
+IDEは初めてだが、補完が非常に良く、`fmt` と入力するだけでスニペットが表示されるだけではなく、引数の定義元の名前が表示されたり、importを自動で追加するなど、とても便利な感じがした。あとはフォーマットを整えてくれるなど、至れり尽くせりである。もう少し使ってから評価したいところではあるが、Vimのキーバインドも使えるので、しばらくはGoglandを利用してみたいと思った。
