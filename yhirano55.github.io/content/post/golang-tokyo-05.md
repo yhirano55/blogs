@@ -6,7 +6,12 @@ title = "golang.tokyo #5"
 
 +++
 
-2017年4月27日（木）に行われた、golang.tokyo #5に参加してきました。今回は**ブログ参加枠**でエントリーしたので、参加してきた記事を書こうと思います。イベントの詳細は、[connpass](https://golangtokyo.connpass.com/event/53209/)に記載がある通り、株式会社メルカリ様で行われました。
+2017年4月27日（木）に行われた、golang.tokyo #5に参加してきました。今回は**ブログ参加枠**でエントリーしたので、参加してきた記事を書こうと思います。イベントの詳細は、[connpass](https://golangtokyo.connpass.com/event/53209/)に記載がある通り、さかなのオブジェで話題の株式会社メルカリ様で行われました。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">メルカリさんのオフィスにお邪魔してmercari×サイボウズ主催 オフィスdeナイト<br>テーマは「当たり前を打ち破る、総務・コーポレート部門の企画力」 <a href="https://t.co/wcMzz4qs7n">pic.twitter.com/wcMzz4qs7n</a></p>&mdash; kondo　yukiko (@yukko_chiru) <a href="https://twitter.com/yukko_chiru/status/836193039399858176">2017年2月27日</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+※上記引用は本勉強会とは関係なし。バランスシートの借方が充実してそうな雰囲気！
 
 ### 会場・雰囲気
 
@@ -112,7 +117,7 @@ title = "golang.tokyo #5"
 
 ### LT2. Context アンチパターン
 
-※スライド公開待ち※
+<script async class="speakerdeck-embed" data-id="c7ecf0661f6d4eea8c193a7f0fcd7c32" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 @timakinさん（グノシー）による発表。
 
@@ -134,3 +139,4 @@ title = "golang.tokyo #5"
 - GAE使ってみようと思った。
 - でも特殊な知見が豊富ぽくてゲッソリしそうな気がした。
 - 1.8がcomingしたら始めようと思いマス
+- 業務で使えるの羨ましさある
