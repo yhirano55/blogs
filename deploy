@@ -2,7 +2,10 @@
 
 set -eu
 
-rm -fr yhirano55.github.io/public
+if [ -e yhirano55.github.io/public ]; then
+  rm -fr yhirano55.github.io/public
+fi
+
 git clone git@github.com:yhirano55/yhirano55.github.io.git yhirano55.github.io/public
 cd yhirano55.github.io
 hugo
