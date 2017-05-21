@@ -21,5 +21,5 @@ deployment:
     branch: master
     commands:
       - git clone git@github.com:yhirano55/yhirano55.github.io.git yhirano55.github.io/public
-      - cd yhirano55.github.io && hugo
+      - cd yhirano55.github.io && hugo >&/dev/null
       - cd yhirano55.github.io/public && git add . && git commit -m "[ci skip] publish" && git push origin master
