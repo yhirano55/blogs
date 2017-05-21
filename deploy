@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -eu
+
+rm -fr yhirano55.github.io/public
+git clone git@github.com:yhirano55/yhirano55.github.io.git yhirano55.github.io/public
+cd yhirano55.github.io
+hugo
+cd public
+git config --local user.name "Yoshiyuki Hirano"
+git config --local user.email "yhirano@me.com"
+git add .
+git commit -m "[ci skip] publish"
+git push origin master
